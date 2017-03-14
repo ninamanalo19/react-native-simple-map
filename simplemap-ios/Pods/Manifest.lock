@@ -1,0 +1,36 @@
+PODS:
+  - React (0.42.0):
+    - React/Core (= 0.42.0)
+  - React/Core (0.42.0):
+    - React/cxxreact
+    - Yoga (= 0.42.0.React)
+  - React/cxxreact (0.42.0):
+    - React/jschelpers
+  - React/jschelpers (0.42.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SDWebImage/MapKit (3.8.2):
+    - SDWebImage/Core
+  - Yoga (0.42.0.React)
+
+DEPENDENCIES:
+  - React (from `./node_modules/react-native`)
+  - SDWebImage (~> 3.8)
+  - SDWebImage/MapKit
+  - Yoga (from `./node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ./node_modules/react-native
+  Yoga:
+    :path: ./node_modules/react-native/ReactCommon/yoga
+
+SPEC CHECKSUMS:
+  React: 8ec97f0d79ba31892c526cf56425937926cc9b48
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Yoga: 4183cc70cae189d73f996b1e40c3078aca9f96ef
+
+PODFILE CHECKSUM: d69a75aa2957becfb904fdd9ab8697308c00068e
+
+COCOAPODS: 1.2.0

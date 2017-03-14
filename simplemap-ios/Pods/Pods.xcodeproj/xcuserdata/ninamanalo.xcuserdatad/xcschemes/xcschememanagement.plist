@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-simplemap-ios.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>React.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Yoga.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>18E759A61BF6A3E452AA83B76072A52D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B8622C2549BCEB8A6FDED90B642AF7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D13BFE6BC8A7729FAEE9E9F41792EAB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E03FC060DB033B1FD9BE071822F10525</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
