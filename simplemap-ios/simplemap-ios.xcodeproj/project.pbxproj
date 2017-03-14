@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		712520921E78559D0013CFB3 /* simplemap_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 712520911E78559D0013CFB3 /* simplemap_ios.m */; };
-		712520931E78559D0013CFB3 /* simplemap_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 712520901E78559D0013CFB3 /* simplemap_ios.h */; };
+		713E86D21E7857E90036BDAF /* SimpleMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E86CF1E7857E90036BDAF /* SimpleMap.m */; };
+		713E86D31E7857E90036BDAF /* SimpleMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E86D11E7857E90036BDAF /* SimpleMapView.m */; };
 		C6EEF87DE75D60C3851C5567 /* libPods-simplemap-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA82E7CBF7D06D46D6A65AE /* libPods-simplemap-ios.a */; };
 /* End PBXBuildFile section */
 
@@ -19,7 +19,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				712520931E78559D0013CFB3 /* simplemap_ios.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -28,8 +27,10 @@
 /* Begin PBXFileReference section */
 		472390831977F331023F2AA0 /* Pods-simplemap-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simplemap-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-simplemap-ios/Pods-simplemap-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		7125208D1E78559D0013CFB3 /* libsimplemap-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libsimplemap-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		712520901E78559D0013CFB3 /* simplemap_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simplemap_ios.h; sourceTree = "<group>"; };
-		712520911E78559D0013CFB3 /* simplemap_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simplemap_ios.m; sourceTree = "<group>"; };
+		713E86CE1E7857E90036BDAF /* SimpleMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMap.h; sourceTree = "<group>"; };
+		713E86CF1E7857E90036BDAF /* SimpleMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMap.m; sourceTree = "<group>"; };
+		713E86D01E7857E90036BDAF /* SimpleMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMapView.h; sourceTree = "<group>"; };
+		713E86D11E7857E90036BDAF /* SimpleMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMapView.m; sourceTree = "<group>"; };
 		DEA82E7CBF7D06D46D6A65AE /* libPods-simplemap-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-simplemap-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A7E694FFC3484003314379 /* Pods-simplemap-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simplemap-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-simplemap-ios/Pods-simplemap-ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,8 +85,10 @@
 		7125208F1E78559D0013CFB3 /* simplemap-ios */ = {
 			isa = PBXGroup;
 			children = (
-				712520901E78559D0013CFB3 /* simplemap_ios.h */,
-				712520911E78559D0013CFB3 /* simplemap_ios.m */,
+				713E86CE1E7857E90036BDAF /* SimpleMap.h */,
+				713E86CF1E7857E90036BDAF /* SimpleMap.m */,
+				713E86D01E7857E90036BDAF /* SimpleMapView.h */,
+				713E86D11E7857E90036BDAF /* SimpleMapView.m */,
 			);
 			path = "simplemap-ios";
 			sourceTree = "<group>";
@@ -183,7 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				712520921E78559D0013CFB3 /* simplemap_ios.m in Sources */,
+				713E86D21E7857E90036BDAF /* SimpleMap.m in Sources */,
+				713E86D31E7857E90036BDAF /* SimpleMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +323,7 @@
 				712520981E78559D0013CFB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
